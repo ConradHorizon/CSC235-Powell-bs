@@ -85,6 +85,10 @@
         </nav>
       </header>
       <main class="container-fluid">
+      <div class="alert alert-primary alert-dismissible fade show" role="alert">
+  <strong>Welcome</strong>  CSC 235 Bootstrap integration.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
         <div class="row">
           <aside class="col-4">
             <img
@@ -122,6 +126,20 @@
               pulvinar tellus, id congue turpis pretium a. Vivamus imperdiet
               odio ante, sit amet accumsan lacus cursus eget.
             </p>
+            <div class="accordion mt-4" id="assignmentAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+        Why use Bootstrap?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#assignmentAccordion">
+      <div class="accordion-body">
+        Bootstrap allows us to create responsive, professional layouts quickly using pre-built components.
+      </div>
+    </div>
+  </div>
+</div>
           </section>
         </div>
       </main>
